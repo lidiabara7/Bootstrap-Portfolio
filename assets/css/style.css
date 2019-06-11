@@ -1,3 +1,4 @@
+
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
@@ -215,3 +216,131 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media only screen and (max-width: 980px){
+  .container {
+    width: 100%;
+    max-width: 980px;
+  }
+  #masthead {
+    position: fixed;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+  }
+  #logo {
+    float: left;
+    width: 250px;
+    height: 90px;
+  }
+  nav {
+    float: right;
+    margin-top: 25px;
+  }
+  #main-container {
+    padding-top: 130px;
+  }
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .container{
+    max-width: 768px
+  }
+  #masthead {
+    position: fixed;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    }
+    #logo{ 
+    float: left;  
+    width: 200px;
+    height: 80px;
+  }
+  nav {
+    float: right;
+    margin-top: 10px; 
+  }
+  #main-container {
+    padding-top: 90px;
+  }
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 780px;
+    padding: 20px;
+    margin: 0 0 100px;
+  }
+    .work {
+      position: relative;
+      float: none;
+      overflow: auto;
+    }
+    
+    .work:nth-child(even) {
+      margin-right: none;
+    }
+    .auth-image {
+      float: none;
+      width: 200px;
+      height: auto;
+      margin-top: 10px;
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+    }
+       
+}
+
+@media only screen and (max-width: 640px){
+  .container{
+    max-width: 640px
+  } 
+  #masthead {
+  position: static;
+  text-align: center
+  }
+  #logo{ 
+  width: 100%;
+  height: 60px;
+  margin: 0;
+}
+nav {
+  float: none;
+  margin-top: 10px; 
+}
+#main-container {
+  padding-top: 30px;
+}
+.main-section {
+  float: none;
+  width: 100%;
+  max-width: 640px;
+  padding: 20px;
+  margin: 0 0 100px;
+}
+.work {
+  position: relative;
+  float: none;
+  overflow: auto;
+  }
+  
+.work:nth-child(even) {
+    margin-right: none;
+  }
+.auth-image {
+    float: none;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }}
