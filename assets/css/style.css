@@ -141,7 +141,7 @@ h3, h2 {
   position: relative;
   float: left;
   width: 274px;
-  margin: 20px 0 25px;
+  margin: 20px 40px 25px;
   overflow: auto;
 }
 
@@ -153,6 +153,7 @@ h3, h2 {
   width: 100%;
   border: 0 none;
   opacity: 0.8;
+
 }
 
 .work h3 {
@@ -216,6 +217,7 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
 
 @media only screen and (max-width: 980px){
   .container {
