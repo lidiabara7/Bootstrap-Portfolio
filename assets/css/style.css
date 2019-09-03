@@ -5,7 +5,7 @@ body {
   line-height: 34px;
   /* color: #777777; */
   color:#000000;
-  background: url("../images/the-background-1442499_1920.jpg");
+  background: url("../images/ice-2817112_1920\ \(1\).jpg");
   opacity: 0.8;
 }
 
@@ -59,6 +59,7 @@ h1 {
   font-size: 30px;
   line-height: 49px;
   border-bottom: 3px solid #dddddd;
+  text-shadow: 2px 2px 5px rgb(248, 248, 248);
 }
 
 h2,
@@ -123,7 +124,7 @@ footer {
   color: #cccccc;
   text-align: center;
   background: #666666;
-  border-top: 8px solid rgb(177, 83, 174);
+  border-top: 8px solid rgb(83, 177, 169);
   height: 50px;
 }
 
@@ -183,7 +184,7 @@ h3, h2 {
   line-height: 30px;
   color: #ffffff;
   text-align: center;
-  background:rgb(177, 83, 174);
+  background:rgb(83, 166, 177);
   border-bottom: 0;
 }
 
