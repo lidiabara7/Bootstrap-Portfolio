@@ -184,7 +184,7 @@ h3, h2 {
   line-height: 30px;
   color: #ffffff;
   text-align: center;
-  background:rgb(83, 166, 177);
+  background:rgb(83, 177, 169);
   border-bottom: 0;
 }
 
@@ -227,12 +227,12 @@ textarea {
   height: 200px;
 }
 
-input[type=submit] {
+  button {
   padding: 10px 30px;
   font-size: 18px;
   color: #ffffff;
   cursor: pointer;
-  background:rgb(177, 83, 174);
+  background:rgb(83, 177, 169);
   border: 0 none;
 }
 

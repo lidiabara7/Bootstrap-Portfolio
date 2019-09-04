@@ -14,7 +14,7 @@
     <div class="container">
       <a href="index.html" id="logo">Lidia Barahona</a>
       <nav>
-          <a href="home.html">Home</a>
+        <a href="home.html">Home</a>
         <a href="index.html">About</a>
         <a href="portfolio.html">Portfolio</a>
         <a href="contact.html">Contact</a>
@@ -26,13 +26,14 @@
     <section class="main-section">
       <h1>Contact
 
-      <a href= "mailto: lidiabara7@gmail.com"><img class = "circular-image" id = "message" src = "assets/images/message icon.png"> </img></a>
-       
-      <a href = "https://github.com/lidiabara7/
-      "><img class = "circular-image" src ="assets/images/github logo.jpg"></image> </a>
-      
-        <a href = "https://www.linkedin.com/in/lidia-barahona-98a745190/
-        "><img class = "circular-image" src ="assets/images/linkedIn icon.png"></image> </a>
+        <a href="mailto: lidiabara7@gmail.com"><img class="circular-image" id="message"
+            src="assets/images/message icon.png"></a>
+
+        <a href="https://github.com/lidiabara7/
+      "><img class="circular-image" src="assets/images/github logo.jpg"></a>
+
+        <a href="https://www.linkedin.com/in/lidia-barahona-98a745190/
+        "><img class="circular-image" src="assets/images/linkedIn icon.png"></a>
       </h1>
 
       <form id="contact-form">
@@ -47,22 +48,30 @@
           </li>
           <li>
             <label for="message">Message</label>
-            <textarea id="message" name="message" required="required"></textarea>
+            <textarea id="messageme" name="message" required="required"></textarea>
           </li>
         </ul>
-        <input type="submit">
+
+        <div style="text-align:center">
+          <button type="button" id="add-contact-info">Submit</button>
+        </div>
+
       </form>
 
     </section>
 
   </div>
-
+  
   <footer>
-    
+
     <div class="container">
-      Copyright &copy; 
+      Copyright &copy;
     </div>
   </footer>
+ <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-app.js"></script>
+  <script src='https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="assets/logic/contact.js"></script>
 </body>
 
 </html>
