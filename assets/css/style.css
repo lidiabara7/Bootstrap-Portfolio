@@ -247,6 +247,9 @@ textarea {
   filter: hue-rotate(120deg)
 }
 
+.contactInfo {
+text-align: center
+}
 /* to make the screen responsive */
 @media only screen and (max-width: 980px){
   .container {
